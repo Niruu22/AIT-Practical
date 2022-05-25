@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Image to use :</p>
+    <img id="abc" src="./img/adypu.jpg" alt="" width="300" height="500">
+
+    <p>Canvas to fill :</p>
+
+    <!---This is code for canvas---->
+    <canvas id="line" width="200" height="100" style="border: 1px solid greenyellow;" >
+        your browser does not support the html canvas tag</canvas>
+
+
+        <p> <button onclick="canvas()"> Try it</button></p>
+
+        <script>
+            function canvas(){
+                var c = document.getElementById("line");
+                var ab =  c.getContext("2d");
+                var img = document.getElementById("abc");
+                ab.drawImage(img,2,2);
+            }
+        </script>
+</body>
+</html>

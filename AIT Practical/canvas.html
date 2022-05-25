@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="line" width="200" height="100" style="border: 1px solid greenyellow;" >your browser does not support the html canvas tag</canvas>
+
+    <script>
+        
+        var a = document.getElementById("line");
+        var ac = a.getContext("2d");
+        ac.moveTo(0,0);
+        ac.lineTo(300,100);
+        ac.stroke();
+
+
+    </script>
+
+</body>
+</html>
