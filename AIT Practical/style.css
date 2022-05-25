@@ -1,0 +1,26 @@
+.head h3 {
+    text-align: center;
+}
+
+.head h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(source/adypu.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
